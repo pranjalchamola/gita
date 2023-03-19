@@ -1,0 +1,107 @@
+.button-left {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  /* Optional styles to add some space around the text */
+  padding: 10px 20px;
+}
+
+.css-4t3x6l-MuiPaper-root-MuiDrawer-paper {
+  margin-top: 64px;
+}
+
+.side-box-left {
+  width: 300px;
+  height: 100%;
+  text-align: center;
+  role: presentation;
+  background-color: #252931;
+  position: relative;
+}
+
+.closing-button-left {
+  color: inherit;
+  position: absolute;
+  top: -5px;
+  right: -20px;
+}
+
+.parent-div-chapters {
+  display: flex;
+  flex-direction: row;
+}
+
+.list-verses {
+  overflow-y: auto;
+  width: 80px;
+  height: 80vh;
+  color: white;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.list-verse-item {
+  font-size: medium;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 2px;
+  padding: 2px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(231, 224, 224, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.css-4t3x6l-MuiPaper-root-MuiDrawer-paper {
+  background-color: #252931;
+}
+
+.list-chapters {
+  color: white;
+  text-align: left;
+  margin-top: 12px;
+  overflow-y: auto;
+  height: 80vh;
+}
+
+.list-chapter-item {
+  font-size: medium;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 2px;
+  padding: 2px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(231, 224, 224, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.list-chapters div {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.css-6hp17o-MuiList-root-MuiMenu-list {
+  background-color: #252931;
+}
+
+/* target the scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 10px;
+}
+
+/* track */
+::-webkit-scrollbar-track {
+  background-color: #b3b0b0;
+}
+
+/* thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #545050;
+  border-radius: 5px;
+}

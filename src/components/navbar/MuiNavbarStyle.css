@@ -1,0 +1,27 @@
+.closing-button {
+  color: inherit;
+  position: absolute;
+  top: 0.4px;
+  left: 142px;
+}
+
+.side-box {
+  width: 350px;
+  height: 100%;
+  text-align: center;
+  role: presentation;
+  background-color: #252931;
+  position: relative;
+}
+
+.select-translation {
+  color: white;
+  position: absolute;
+  top: 80px;
+  left: 20px;
+}
+
+.i-tag {
+  font-size: 24px;
+  color: white;
+}

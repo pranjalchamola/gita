@@ -1,0 +1,32 @@
+.body-div {
+  position: relative;
+  color: white;
+  margin-top: 20px;
+}
+
+.list-verse-data {
+  margin-bottom: 30px;
+  border-bottom: 1px solid rgb(220, 216, 216);
+  padding-bottom: 30px;
+  font-size: 23px;
+  text-align: center;
+  line-height: 1.4;
+  min-height: 100px;
+
+  align-items: center;
+  justify-content: left;
+  padding: 2px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 70px rgba(231, 224, 224, 0.1);
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.translation-div {
+  background-color: #22262d;
+  font-size: 21px;
+  box-shadow: 0px 0px 15px rgba(231, 224, 224, 0.1);
+}
